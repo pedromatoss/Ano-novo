@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playwrite+IE+Guides&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Oswald:wght@200..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playwrite+IE+Guides&display=swap');
+
+
+body {
+    background-color: #252525; /* Cor de fundo suave */
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    min-height: 100vh;      /* Garante que o body ocupa a tela inteira */
+}
+
+h1 {
+    font-family: Playfair Display SC;
+    font-size: 3rem;
+    color: #D9AF62;
+    padding: 1rem;
+    text-decoration: underline whitesmoke;
+    text-decoration-thickness: 1.3px;
+}
+
+.container {
+    background-color: #1B242B;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #FCEC87;
+    text-align: center; /* Centraliza o texto dentro do container */
+    max-width: 800px;
+}
+
+#titulo_info {
+    margin-top: -3rem;
+    margin-bottom: 3.5rem;
+    font-family: Oswald;
+    font-weight: 1;
+    font-size: 2.5rem;
+    color: whitesmoke;
+}
+
+#texto_info {
+    font-family: Oswald;
+    font-size: 1.5rem;
+    font-weight: 1;
+    color: white;
+    word-wrap: break-word;
+}
+
+#lista_ul {
+    font-family: Oswald;
+    font-size: 1.5rem;
+    font-weight: 1;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.info ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+}
+
+.info li {
+    margin-bottom: 10px;
+}
+
+#confirmacao {
+    font-style: Oswald;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-decoration: underline ;
+    text-decoration-thickness: 1.3px;
+}
+
+
